@@ -1,6 +1,11 @@
 {
-    "hash": "ae2c4420f240dce0c7c5292bd8d817c5",
+    "hash": "2d9360db227cb90aba8babc048523d94",
     "packages": [
+        {
+            "package": "chobie/Git2RepositoryBrowserBundle",
+            "version": "dev-master",
+            "source-reference": "master"
+        },
         {
             "package": "doctrine/common",
             "version": "2.2.0"
