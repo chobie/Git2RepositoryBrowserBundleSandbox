@@ -1,1 +1,8 @@
 .vagrant
+
+sandbox/web/bundles/
+sandbox/app/bootstrap.php.cache
+sandbox/app/cache/*
+sandbox/app/logs/*
+sandbox/build/
+sandbox/vendor/
