@@ -18,7 +18,17 @@ vagrant up
 # you can log in to the box with following command `vagrant ssh`
 ````
 
+# Screenshot
+
 [![screenshot](https://github.com/chobie/Git2RepositoryBrowserBundleSandbox/raw/master/images/git2repositorybrowserbundle.png)](http://travis-ci.org/chobie/fluent-logger-php)
+
+# License
+
+# Get involved?
+
+please see https://github.com/chobie/Git2RepositoryBrowserBundle
+this repo is a just sandbox for above one.
+
 # License
 
 MIT License
