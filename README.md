@@ -10,11 +10,11 @@ gem install chef --no-ri --no-rdoc
 git clone https://github.com/chobie/Git2RepositoryBrowserBundleSandbox.git
 cd Git2RepositoryBrowserBundleSandbox
 cd sandbox
-php -d composer.phar update
+php -d detect_unicode=0 composer.phar update
 vagrant up
 rake sync
 
-# this may take 30 minutes over if you don't have the box.
+# this may takes 30 minutes over if you don't have the box.
 # you can log in to the box with following command `vagrant ssh`
 
 vagrant ssh
