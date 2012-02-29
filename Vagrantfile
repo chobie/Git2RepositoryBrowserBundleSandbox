@@ -19,6 +19,7 @@ Vagrant::Config.run do | config |
     chef.add_recipe "openssl"
     chef.add_recipe 'pygments'
     chef.add_recipe "node"
+	chef.add_recipe "java"
     chef.add_recipe "sandbox"
   end
 
