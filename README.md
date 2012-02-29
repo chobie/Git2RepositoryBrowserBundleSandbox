@@ -12,6 +12,7 @@ cd Git2RepositoryBrowserBundleSandbox
 cd sandbox
 php -d composer.phar update
 vagrant up
+rake sync
 
 # this may take 30 minutes over if you don't have the box.
 # you can log in to the box with following command `vagrant ssh`
@@ -20,7 +21,7 @@ vagrant ssh
 # logged in to vm.
 mkdir /tmp/repos
 cd /tmp/repos
-# clone bare repository
+# clone bare repository what you want to see.
 git clone https://github.com/chobie/php-sundown.git --bare
 exit
 # logged out from vm
