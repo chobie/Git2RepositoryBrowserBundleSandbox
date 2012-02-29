@@ -14,7 +14,6 @@ php -d composer.phar update
 vagrant up
 
 # this may take 30 minutes over if you don't have the box.
-# this box installed rbenv, ruby1.9.3-p0 and fluentd. you can play fluentd and php with this box. enjoy it!
 # you can log in to the box with following command `vagrant ssh`
 
 vagrant ssh
