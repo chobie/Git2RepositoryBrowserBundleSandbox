@@ -1,9 +1,9 @@
 {
-    "hash": "2d9360db227cb90aba8babc048523d94",
+    "hash": "f96e98752198eacb4e44b12e16dd11c2",
     "packages": [
         {
             "package": "chobie/Git2RepositoryBrowserBundle",
-            "version": "dev-master",
+            "version": "master",
             "source-reference": "master"
         },
         {
@@ -43,7 +43,7 @@
         {
             "package": "kriswallsmith/assetic",
             "version": "dev-master",
-            "source-reference": "58e9c45aa27be35d16add0394e1e254b82f3f914"
+            "source-reference": "7edbf01136dbbe1ff95bca4c007bb8cf1271c72e"
         },
         {
             "package": "monolog/monolog",

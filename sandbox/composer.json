@@ -15,14 +15,17 @@
         "sensio/framework-extra-bundle": "dev-master",
         "sensio/generator-bundle": "dev-master",
         "jms/security-extra-bundle": "dev-master",
-		"chobie/Git2RepositoryBrowserBundle": "dev-master"
+		"chobie/Git2RepositoryBrowserBundle": "master"
     },
 	"repositories" : [
 		{
 			"type": "package",
 			"package": {
 				"name": "chobie/Git2RepositoryBrowserBundle",
-				"version": "dev-master",
+				"version": "master",
+				"autoload": {
+			        "psr-0": {"Chobie": "src/"}
+			    },
 				"source": {
 					"url": "git://github.com/chobie/Git2RepositoryBrowserBundle.git",
 					"type": "git",
